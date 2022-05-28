@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/imageurl"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        >
+
+    <TextView
+        android:id="@+id/liketitle"
+        android:layout_width="170dp"
+        android:text="좋아요를 눌러주세요"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:id="@+id/btnlikes"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        >
+
+         <TextView
+            android:id="@+id/tvtitles"
+            android:layout_width="60dp"
+            android:text="책이름: "
+            android:layout_height="wrap_content"
+        />
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        >
+
+        <TextView
+            android:id="@+id/tvprices"
+            android:layout_width="60dp"
+            android:text="책가격: "
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        >
+
+        <TextView
+            android:id="@+id/tvpublishers"
+            android:layout_width="60dp"
+            android:text="출판사: "
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvpublisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        >
+
+        <TextView
+            android:id="@+id/tvreleasedates"
+            android:layout_width="60dp"
+            android:text="출시일: "
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvreleasedate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvcontents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        />
+
+
+
+
+
+</LinearLayout>
